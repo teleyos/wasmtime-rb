@@ -1,5 +1,30 @@
 # Changelog
 
+## [v46.0.0](https://github.com/bytecodealliance/wasmtime-rb/tree/v46.0.0) (2026-06-29)
+
+[Full Changelog](https://github.com/bytecodealliance/wasmtime-rb/compare/v45.0.0...v46.0.0)
+
+**Closed issues:**
+
+- Ruby prebuilt gems size question [\#604](https://github.com/bytecodealliance/wasmtime-rb/issues/604)
+- Precompiled x64-mingw-ucrt gem fails to load on Windows: LoadError: cannot load such file -- wasmtime/wasmtime\_rb [\#581](https://github.com/bytecodealliance/wasmtime-rb/issues/581)
+- Component host functions [\#433](https://github.com/bytecodealliance/wasmtime-rb/issues/433)
+
+**Merged pull requests:**
+
+- update to wasmtime 46.0.0 [\#614](https://github.com/bytecodealliance/wasmtime-rb/pull/614) ([jacobsteves](https://github.com/jacobsteves))
+- Run smoke tests on os matrix [\#612](https://github.com/bytecodealliance/wasmtime-rb/pull/612) ([jacobsteves](https://github.com/jacobsteves))
+- Add read\_cstring/write\_cstring memory helpers [\#611](https://github.com/bytecodealliance/wasmtime-rb/pull/611) ([omohokcoj](https://github.com/omohokcoj))
+- Strip debug symbols from gem release shared object [\#610](https://github.com/bytecodealliance/wasmtime-rb/pull/610) ([omohokcoj](https://github.com/omohokcoj))
+- Update flake.lock [\#609](https://github.com/bytecodealliance/wasmtime-rb/pull/609) ([saulecabrera](https://github.com/saulecabrera))
+- chore\(deps\): bump tokio from 1.52.1 to 1.52.3 [\#608](https://github.com/bytecodealliance/wasmtime-rb/pull/608) ([dependabot[bot]](https://github.com/apps/dependabot))
+- chore\(deps\): bump wat from 1.248.0 to 1.251.0 [\#607](https://github.com/bytecodealliance/wasmtime-rb/pull/607) ([dependabot[bot]](https://github.com/apps/dependabot))
+- chore\(deps-dev\): bump yard from 0.9.43 to 0.9.44 [\#606](https://github.com/bytecodealliance/wasmtime-rb/pull/606) ([dependabot[bot]](https://github.com/apps/dependabot))
+- chore\(deps-dev\): bump benchmark-ips from 2.14.0 to 2.15.1 [\#605](https://github.com/bytecodealliance/wasmtime-rb/pull/605) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Allow releasing GVL when calling exported Wasm functions [\#603](https://github.com/bytecodealliance/wasmtime-rb/pull/603) ([omohokcoj](https://github.com/omohokcoj))
+- feat: add typed memory accessors to `Wasmtime::Memory` [\#601](https://github.com/bytecodealliance/wasmtime-rb/pull/601) ([takahashim](https://github.com/takahashim))
+- Component host functions [\#597](https://github.com/bytecodealliance/wasmtime-rb/pull/597) ([william-stacken](https://github.com/william-stacken))
+
 ## [v45.0.0](https://github.com/bytecodealliance/wasmtime-rb/tree/v45.0.0) (2026-05-27)
 
 [Full Changelog](https://github.com/bytecodealliance/wasmtime-rb/compare/v44.0.0...v45.0.0)
